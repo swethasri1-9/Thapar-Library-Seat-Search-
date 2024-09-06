@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.review {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.review h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.review h2 {
+    color: #666;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.review b {
+    color: #007bff;
+}
+
+.review h1 b {
+    color: #28a745;
+}
+
+@media only screen and (max-width: 768px) {
+    .review {
+        width: 90%;
+    }
+}
